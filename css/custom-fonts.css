@@ -1,0 +1,56 @@
+/* Estilos personalizados para cambiar todas las fuentes de párrafos a Special Elite */
+
+/* Párrafos generales */
+p {
+    font-family: "Special Elite", Sans-serif !important;
+}
+
+/* Párrafos dentro de elementos específicos */
+.elementor-text-editor p,
+.elementor-widget-text-editor p,
+.elementor-image-box-description,
+blockquote p,
+.wp-block-paragraph,
+.entry-content p,
+.post-content p,
+.page-content p,
+.widget p,
+.sidebar p,
+.footer p {
+    font-family: "Special Elite", Sans-serif !important;
+}
+
+/* Elementos de texto que pueden contener párrafos */
+.elementor-heading-title,
+.elementor-text-editor,
+.elementor-widget-heading .elementor-heading-title,
+.elementor-widget-text-editor .elementor-text-editor {
+    font-family: "Special Elite", Sans-serif !important;
+}
+
+/* Asegurar que los elementos de texto en Elementor usen Special Elite */
+.elementor-element .elementor-widget-container p,
+.elementor-element .elementor-widget-container .elementor-text-editor,
+.elementor-element .elementor-widget-container .elementor-heading-title {
+    font-family: "Special Elite", Sans-serif !important;
+}
+
+/* Texto en cajas de imagen */
+.elementor-image-box-content p,
+.elementor-image-box-title,
+.elementor-image-box-description {
+    font-family: "Special Elite", Sans-serif !important;
+}
+
+/* Blockquotes y citas */
+blockquote,
+blockquote p,
+cite {
+    font-family: "Special Elite", Sans-serif !important;
+}
+
+/* Texto en botones si es necesario */
+.elementor-button-text,
+.wpr-button-text {
+    font-family: "Special Elite", Sans-serif !important;
+}

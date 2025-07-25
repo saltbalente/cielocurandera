@@ -1,0 +1,34 @@
+# Archivos de desarrollo
+*.log
+*.tmp
+*.temp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de scripts temporales
+replace_links.sh
+replace_whatsapp.py
+
+# Archivos de configuración local
+.env
+.env.local
+
+# Carpetas de dependencias (si las hubiera)
+node_modules/
+.npm/
+
+# Archivos de backup
+*.bak
+*.backup
+
+# Archivos de editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs de servidor
+access.log
+error.log

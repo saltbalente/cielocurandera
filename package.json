@@ -1,0 +1,25 @@
+{
+  "name": "cielocurandera",
+  "version": "1.0.0",
+  "description": "Centro Espiritual Curandera Cielo - Sitio web oficial",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "espiritual",
+    "curandera",
+    "amarres",
+    "limpiezas",
+    "tarot",
+    "consultas"
+  ],
+  "author": "Centro Espiritual Curandera Cielo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saltbalente/cielocurandera.git"
+  },
+  "homepage": "https://cielocurandera.vercel.app"
+}

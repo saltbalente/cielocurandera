@@ -1,0 +1,132 @@
+/* Estilos personalizados para cambiar todas las fuentes de párrafos a Special Elite */
+
+/* Forzar color de fondo del body */
+body {
+    background-color: #6f0000 !important;
+    background: #6f0000 !important;
+}
+
+/* Asegurar que todos los contenedores principales mantengan el fondo */
+html {
+    background-color: #6f0000 !important;
+}
+
+/* Estilos para el video personalizado */
+.custom-video-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background: linear-gradient(45deg, #8B0000, #DC143C, #B22222, #8B0000);
+    background-size: 400% 400%;
+    animation: gradientShift 3s ease infinite;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 
+                0 0 20px rgba(220, 20, 60, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.custom-video-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+.custom-video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Responsivo para dispositivos móviles */
+@media (max-width: 768px) {
+    .custom-video-container {
+        max-width: 95%;
+        margin: 15px auto;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-video-container {
+        max-width: 98%;
+        margin: 10px auto;
+        padding: 6px;
+        border-radius: 15px;
+    }
+    
+    .custom-video {
+        border-radius: 10px;
+    }
+}
+
+/* Párrafos generales */
+p {
+    font-family: "Special Elite", Sans-serif !important;
+}
+
+/* Párrafos dentro de elementos específicos */
+.elementor-text-editor p,
+.elementor-widget-text-editor p,
+.elementor-image-box-description,
+blockquote p,
+.wp-block-paragraph,
+.entry-content p,
+.post-content p,
+.page-content p,
+.widget p,
+.sidebar p,
+.footer p {
+    font-family: "Special Elite", Sans-serif !important;
+}
+
+/* Elementos de texto que pueden contener párrafos */
+.elementor-heading-title,
+.elementor-text-editor,
+.elementor-widget-heading .elementor-heading-title,
+.elementor-widget-text-editor .elementor-text-editor {
+    font-family: "Special Elite", Sans-serif !important;
+}
+
+/* Asegurar que los elementos de texto en Elementor usen Special Elite */
+.elementor-element .elementor-widget-container p,
+.elementor-element .elementor-widget-container .elementor-text-editor,
+.elementor-element .elementor-widget-container .elementor-heading-title {
+    font-family: "Special Elite", Sans-serif !important;
+}
+
+/* Texto en cajas de imagen */
+.elementor-image-box-content p,
+.elementor-image-box-title,
+.elementor-image-box-description {
+    font-family: "Special Elite", Sans-serif !important;
+}
+
+/* Blockquotes y citas */
+blockquote,
+blockquote p,
+cite {
+    font-family: "Special Elite", Sans-serif !important;
+}
+
+/* Texto en botones si es necesario */
+.elementor-button-text,
+.wpr-button-text {
+    font-family: "Special Elite", Sans-serif !important;
+}
