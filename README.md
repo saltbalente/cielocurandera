@@ -11,8 +11,8 @@ Sitio web oficial del Centro Espiritual Curandera Cielo - Servicios espirituales
 
 ## 📱 Contacto
 
-- **WhatsApp**: [+1 (949) 891-7311](https://wa.me/+19498917311?text=Bendiciones)
-- **Teléfono**: +1 (949) 891-7311
+- **WhatsApp**: [+1 (323) 300-8146](https://wa.me/+19498917311?text=Bendiciones)
+- **Teléfono**: +1 (323) 300-8146
 
 ## 🚀 Despliegue
 
